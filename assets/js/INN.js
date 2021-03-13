@@ -20,7 +20,7 @@ function calc(){
 
     date.setDate(date.getDate() + days);
 
-    let Ndate = date.getDate() + '.' + (date.getMonth() + 1) + '.' + date.getUTCFullYear();
+    let Ndate = date.getDate() + '.' + (date.getMonth() + 1) + '.' + date.getFullYear();
 
     console.log(date);
 
